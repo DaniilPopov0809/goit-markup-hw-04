@@ -59,6 +59,10 @@ img {
   max-width: 100%;
 }
 
+svg {
+  display: block;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -248,15 +252,10 @@ img {
 }
 
 .features-icon {
-  width: 270px;
-  height: 120px;
+  padding: 25px 100px;
   margin-bottom: 30px;
 
   background-color: var(--grey-bgc);
-}
-
-.background-icon {
-  margin: 25px 100px;
 }
 
 /* About styles */
@@ -532,7 +531,9 @@ img {
 .work-text-container {
   padding: 20px 24px;
 
-  border: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .work-title {
