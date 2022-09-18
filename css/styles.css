@@ -398,6 +398,7 @@ svg {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer .logo {
@@ -438,8 +439,6 @@ svg {
 
 .footer-social {
   margin-left: 70px;
-  margin-top: 12px;
-  width: 206px;
 }
 
 .footer-social .list-title {
